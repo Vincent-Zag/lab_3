@@ -11,5 +11,5 @@ echo "Enter File Name: "
 read FileName
 echo "Enter Regular Expression: "
 read RegEx
-grep $RegEx $FileName
-grep -c $FileName
+
+grep $RegEx $FileName >> email_results.txt
